@@ -1,0 +1,37 @@
+/* Placeholder telling the user that the source language for a specific file is unavailable in the source xliff file
+   Placeholder telling the user that the target language for a specific file is unavailable in the source xliff file */
+"?" = "?";
+
+/* Group header cell text, will show up in the outline view as a separator for each file in the XLIFF container. */
+"%@ (source=%@, target=%@)" = "%1$@ (von=%2$@, nach=%3$@)";
+
+/* Status bar label */
+"%d file(s), %d localizable string(s) available" = "%1$d Datei(en), %2$d lokalisierbare Resource(n) vorhanden";
+
+/* XliffFile Parse Error: Failure Reason */
+"Could not parse the XLIFF XML file at: \"%@\"" = "XLIFF XML Datei konnte nicht verarbeitet werden an der Stelle: \"%@\"";
+
+/* Read error description */
+"Could not read file." = "Die Datei kann nicht gelesen werden.";
+
+/* TransUnit Validation Error: Failure Reason */
+"Missing format chars" = "Fehlende Formatelemente";
+
+/* Placeholder String when no translation is available */
+"No translation" = "Nicht übersetzt";
+
+/* Status bar label when no xliff file is loaded */
+"No xliff file loaded" = "Keine XLIFF Datei geladen";
+
+/* TransUnit Validation Error: Recovery Suggestion */
+"Target does not contain all format characters from the source, missing \"%@\"." = "Folgende Formatelemente fehlen in der Eingabe: \"%@\".";
+
+/* XliffFile Parse Error: Recovery Suggestion */
+"Try to re-generate the XLIFF file with Xcode using \"Editor > Export For Localization\" Menu Action and re-open it." = "Die XLIFF Datei mit Xcode \"Editor > Export for Localization\" neu erzeugen und anschließend erneut öffnen.";
+
+/* TransUnit Validation Error: Description */
+"Validation Error" = "Validierungsfehler";
+
+/* XliffFile Parse Error: Description */
+"XLIFF format error" = "XLIFF Formatierungsfehler";
+
